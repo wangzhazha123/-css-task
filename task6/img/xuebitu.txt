@@ -1,0 +1,4 @@
+.img{background:url(../images/img.png)  no-repeat;}
+.human{height:40px;width:41px;background-position:-305px 0;}
+.house{height:40px;width:46px;background-position:-2px 0;}
+.Write{height:95px;width:94px;background-position:-128px 0;}
