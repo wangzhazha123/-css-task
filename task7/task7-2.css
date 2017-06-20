@@ -1,0 +1,105 @@
+body{
+    font-size: 62.5%;
+    margin:0 auto;
+    max-width: 780px;
+    min-width: 320px;
+}
+header{
+    height:60px;
+    position: fixed;
+    border-bottom: solid 1px;
+    border-color: white;
+    background-color: #29bde0;
+    width: 100%;
+    line-height: 60px;
+    max-width: 780px;
+    min-width: 320px;
+    margin:0 auto;
+}
+.house{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.3rem;
+    color: white;
+    padding: 0 10px;
+}
+main{
+    height:2000px;
+    background-color:  #29bde0;
+    padding-top: 100px;
+}
+.victory{
+    text-align: center;
+    font-size: 2rem;
+    color: #ffc865;
+    margin: 0 10% 5%;
+}
+.achieve{
+    width:70%;
+    margin-bottom:20px;
+}
+.game{
+    margin:0 15%;
+    font-size: 4vw;
+    color: white;
+    margin-bottom: 15px;
+}
+.one{
+    background-color: white;
+    font-size: 1rem;
+}
+.one1{
+    border-bottom:solid 1px;
+    border-color:#a6a6a6;
+}
+.day{
+    font-size:2rem;
+    padding-top: 10px;
+    position: relative;
+    padding-left:15%;
+}
+.killer{
+    color: #a6a6a6;
+    font-size:1.5rem;
+    position: relative;
+    padding-left:15%;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    height:60px;
+    background-color: rgba(41,189,224,0.3);
+    color: white;
+    bottom:0;
+    max-width: 780px;
+    min-width: 320px;
+    margin:0 auto;
+}
+.again{
+    font-size: 2rem;
+}
+.come{
+    background-color: #f66f6f;
+    width: 38%;
+    height:45px;
+    position: absolute;
+    left:10%;
+    top:7px;
+    border-radius: 10px;
+    outline:none;
+    border-style:none;
+    text-decoration:none;
+}
+.upload{
+    background-color: #fbb435;
+    width: 38%;
+    position: absolute;
+    right:10%;
+    top: 7px;
+    height:45px;
+    border-radius: 10px;
+    outline:none;
+    border-style:none;
+    text-decoration: none;
+}
+
