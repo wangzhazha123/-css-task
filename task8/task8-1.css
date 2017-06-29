@@ -31,6 +31,8 @@ nav.navbar-default{
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     float: right;
+    position: relative;
+    left:25px;
 }
 div.item img{
     width:100%;
@@ -47,6 +49,9 @@ div.efficient{
     margin-top: 5%;
     text-align: center;
     line-height: 50px;
+}
+h3{
+    padding-bottom: 3%;
 }
 .five{
     text-align: left;
@@ -69,17 +74,28 @@ div.efficient{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5%;
+}
+.aims {
+    visibility: hidden;
+}
+@media ( max-width :1000px) {
+    .aims {
+        visibility: visible;
+    }
 }
 .er{
     text-indent: 2em;
+    color: #a9a9a9;
 }
 .dog{
     background-color: white;
+    padding: 0 4% 5% 6%;
+    margin-bottom: 5%;
+    border: solid 1px #eeeded;
 }
 .seven{
     display: flex;
-    /*justify-content: space-between;*/
-    /*background-color: white;*/
 }
 .col-xs-5cs, .col-sm-5cs, .col-md-5cs, .col-lg-5cs {
     position: relative;
@@ -152,18 +168,30 @@ a.software:link,a:visited{
     padding-bottom: 10px;
     padding-top: 5px;
 }
+.teach{
+    position: relative;
+    right: 20px;
+}
 li.teacher:hover{
     border-bottom: solid 1px #29b078;
+}
+@media ( max-width :780px) {
+    li.teacher:hover {
+        border-bottom: 0;
+    }
 }
 .you{
     width: 100%;
     background-color: #26a26f;
     border-bottom: solid 1px white ;
-
 }
-div.col-md-5.nan{
-    padding:3% 0 ;
-
+.me{
+    color: white;
+    padding-bottom: 70px;
+}
+.mo{
+    color: white;
+    padding-bottom: 10px;
 }
 .jns{
     color: white;
@@ -171,165 +199,29 @@ div.col-md-5.nan{
 a.jns:link,a:visited{
     text-decoration:none;
 }
-
-.kun{
-    visibility: hidden;
+.contact{
+    padding: 3% 1%;
 }
-div.col-md-2.nan{
-    padding:3% 0  1% 0;
-}
-.copy{
-    width: 100%;
-    background-color: #26a26f;
+.cont{
+    padding: 3% 1%;
     text-align: center;
-    color: white;
+    position: relative;
+    left: 20px;
 }
+.wei{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    bottom:20px;
+}
+.rights{
+    color: white;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    padding:5px 0;
+}
+.ri{
+    border-top:solid 1px #32c086;
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*body{*/
-    /*font-size: 1.2rem;*/
-    /*margin: 0 auto;*/
-/*}*/
-/*header{*/
-
-/*}*/
-/*.phone{*/
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*line-height: 30px;*/
-    /*height:30px;*/
-    /*padding:0 15%;*/
-/*}*/
-/*nav.navbar-default{*/
-    /*background-color: #29b078;*/
-    /*padding:15px 0;*/
-/*}*/
-/*.navbar-default .navbar-nav>li>a {*/
-    /*color: white;*/
-/*}*/
-/*.logo{*/
-    /*position: absolute;*/
-    /*bottom: 15px;*/
-    /*left:15%;*/
-/*}*/
-/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {*/
-    /*float: right;*/
-/*}*/
-/*main{*/
-    /*background-color: #fafafa;*/
-/*}*/
-/*nav.navbar{*/
-    /*margin-bottom: 0;*/
-/*}*/
-/*div.item img{*/
-    /*width:100%;*/
-    /*height:10px;*/
-/*}*/
-/*div.container{*/
-    /*padding:0 5% 0 9%;*/
-/*}*/
-/*.row{*/
-    /*margin-right: 10%;*/
-    /*text-align: center;*/
-/*}*/
-/*div.col-md-3{*/
-    /*padding:3%;*/
-/*}*/
-/*.wang{*/
-    /*border-left:dashed 2px;*/
-    /*padding-left: 15px;*/
-    /*text-align: center;*/
-/*}*/
-/*div.col-md-12{*/
-    /*margin:10% 0 5%;*/
-/*}*/
-
-/*.number{*/
-    /*padding-top: 2%;*/
-
-/*}*/
-/*.career{*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*margin-bottom: 40px;*/
-    /*text-align: center;*/
-    /*line-height: 20px;*/
-/*}*/
-/*div.col-md-3.one{*/
-    /*padding-left: 0.1%;*/
-    /*padding-right: 1%;*/
-/*}*/
-/*div.container.one{*/
-    /*padding:0 1% 0 10% ;*/
-/*}*/
-/*.prospect{*/
-    /*margin: 0 3%;*/
-/*}*/
-/*div.col-md-12.excellent{*/
-    /*padding-right:9%;*/
-/*}*/
-/*div.photo{*/
-    /*background-color: white;*/
-    /*border-radius: 5px;*/
-
-/*}*/
-/*div.col-md-12.photo{*/
-    /*display: flex;justify-content: space-between;*/
-    /*align-items: center;*/
-    /*text-align: center;*/
-    /*height:150px;*/
-/*}*/
-/*.advertising{*/
-    /*height:150px;*/
-    /*background:url("img/alibaba.png");*/
-    /*background-size: 80%;*/
-    /*background-repeat:no-repeat;*/
-/*}*/
-/*.super{*/
-    /*visibility: hidden;*/
-/*}*/
-/*.iphone{*/
-    /*display: inline-block;*/
-    /*width: auto;*/
-    /*line-height: 30px;*/
-/*}*/
-/*.software{*/
-    /*padding:0 5% 0 13%;*/
-/*}*/
-/*.you{*/
-    /*width: 100%;*/
-    /*background-color: #26a26f;*/
-    /*border-bottom: solid 1px white ;*/
-
-/*}*/
-/*div.col-md-5.nan{*/
-    /*padding:3% 0 ;*/
-
-/*}*/
-/*.jns{*/
-    /*color: white;*/
-/*}*/
-/*.kun{*/
-/*visibility: hidden;*/
-/*}*/
-/*div.col-md-2.nan{*/
-    /*padding:3% 0  1% 0;*/
-/*}*/
-/*.copy{*/
-    /*width: 100%;*/
-    /*background-color: #26a26f;*/
-    /*text-align: center;*/
-    /*color: white;*/
-/*}*/
+}
