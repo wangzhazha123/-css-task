@@ -1,0 +1,267 @@
+header{
+    height: 90px;
+}
+.wan{
+    width: 100%;
+    height: 100px;
+    background-color:#29b078 ;
+}
+.home-on{
+    padding:0;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.about{
+    text-align: center;
+}
+.navbar-default{
+    background-color: #29b078;
+    font-size: 1.8rem;
+    border: none;
+    z-index: 500;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    padding: 24px 35px;
+    font-size: 2rem;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin: 0;
+        float: right;
+    }
+    .online{
+        left:45px;
+    }
+}
+.navbar-default .navbar-toggle {
+    border-color: #29b078;
+    margin-top: 19px;
+    background-color: #29b078;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color:rgba(0,0,0,0.2);
+}
+li.online:hover{
+    border-bottom: solid 3px white;
+}
+
+main{
+   margin-top: 12px;
+    background-color: #fafafa;
+}
+div.efficient{
+    margin-top: 5%;
+    text-align: center;
+    line-height: 50px;
+}
+.rocket{
+    width: 50px;
+    height:65px;
+}
+.rock{
+    width: 62px;
+    height:65px;
+}
+.total{
+    width: 85px;
+    height:16px;
+}
+.tot{
+    padding-top: 5px;
+}
+h3{
+    padding-bottom: 3%;
+}
+.five{
+    text-align: left;
+    line-height: 26px;
+    padding:0 15px;
+}
+.three{
+    visibility: hidden;
+    line-height: 26px;
+}
+.learn{
+    padding-top: 53px;
+    margin-top: 5%;
+    /*line-height: 25px;*/
+    border-left:dashed 1px #dedede ;
+    padding-left: 2%;
+}
+.what{
+    text-align: center;
+    padding-top: 2%;
+}
+.match{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.aims {
+    visibility: hidden;
+}
+@media ( max-width :1000px) {
+    .aims {
+        visibility: visible;
+    }
+}
+.er{
+    text-indent: 2em;
+    color: #a9a9a9;
+}
+.dog{
+    background-color: white;
+    padding: 0 4% 5% 6%;
+    margin-bottom: 5%;
+    border: solid 1px #eeeded;
+}
+.seven{
+}
+.col-xs-5cs, .col-sm-5cs, .col-md-5cs, .col-lg-5cs {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+@media ( min-width : 768px) {
+    .col-sm-5cs {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media ( min-width : 992px) {
+    .col-md-5cs {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media ( min-width : 1200px) {
+    .col-lg-5cs {
+        width: 20%;
+        float: left;
+    }
+}
+
+.yun:hover{
+    box-shadow:0 1px 10px #d3d3d3;
+}
+.yun{
+    width: 250px;
+    height:175px;
+    background-color: white;
+}
+.friend{
+    width: 100%;
+    background-color: white;
+    margin-top: 5%;
+}
+.col-xs-1cx, .col-sm-1cx, .col-md-1cx, .col-lg-1cx {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media ( min-width : 768px) {
+    .col-sm-1cx {
+        width:10%;
+        float: left;
+    }
+}
+
+@media ( min-width : 992px) {
+    .col-md-1cx {
+        width:10%;
+        float: left;
+    }
+}
+
+@media ( min-width : 1200px) {
+    .col-lg-1cx {
+        width: 10%;
+        float: left;
+    }
+}
+a.software{
+    text-decoration:none;
+    color: #999999;
+}
+.software{
+    color: #b8b8b8;
+}
+.teacher{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 66px;
+}
+.teach{
+    position: relative;
+    right: 20px;
+}
+li.teacher:hover{
+    border-bottom: solid 1px #29b078;
+}
+@media ( max-width :780px) {
+    li.teacher:hover {
+        border-bottom: 0;
+    }
+}
+.you{
+    width: 100%;
+    background-color: #26a26f;
+    border-bottom: solid 1px white ;
+}
+.me{
+    color: white;
+    padding-bottom: 65px;
+}
+.mo{
+    color: white;
+    padding-bottom: 7px;
+}
+.jns{
+    color: white;
+}
+a.jns:link,a:visited{
+    text-decoration:none;
+}
+a.jns:hover{
+    color: white;
+}
+.contact{
+   padding: 35px 0 23px;
+
+}
+.cont{
+    padding: 35px 0 23px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+.wei{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    bottom:20px;
+}
+.rights{
+    color: white;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    padding:5px 0;
+}
+.ri{
+    border-top:solid 1px #32c086;
+}
