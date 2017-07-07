@@ -69,12 +69,18 @@ div.col-md-12.home{
 .enterprise{
     color: #29b078;
 }
+a.enterprise{
+    text-decoration: none;
+    color: #29b078;
+}
 .help{
     background-color: white;
     font-size: 1.8rem;
     border: solid 1px #e6e6e6;
     text-align: center;
     font-weight:900;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 .tencent{
     background-color: white;
@@ -83,7 +89,7 @@ div.col-md-12.home{
 }
 ul.inter{
     text-align: left;
-   padding-top: 5%;
+   padding-top: 38px;
     list-style: none;
     display: inline-block;
 }
@@ -116,6 +122,10 @@ ul li:hover span {
     background-color: white;
     border: solid 1px #e6e6e6;
 }
+.img-potato{
+    text-align: center;
+    padding-top: 20px;
+}
 .po{
     background-color: white;
     border: solid 1px #e6e6e6;
@@ -133,11 +143,18 @@ ul li:hover span {
     width: 200px;
     height: 150px;
 }
+.tur{
+    font-size: 1.5rem;
+    line-height: 200%;
+    text-indent:3rem;
+    top:15px;
+}
 .turn{
     font-size: 1.5rem;
     line-height: 200%;
     text-indent:3rem;
     top:15px;
+    margin-bottom: 60px;
 }
 .you{
     width: 100%;

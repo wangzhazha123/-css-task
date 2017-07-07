@@ -203,26 +203,24 @@ h3{
 a.software{
     text-decoration:none;
     color: #999999;
+    /*border-bottom: solid 1px;*/
+    /*padding-bottom: 10px;*/
 }
 .software{
     color: #b8b8b8;
 }
 .teacher{
     padding-bottom: 10px;
-    padding-top: 5px;
+    /*padding-top: 5px;*/
     width: 66px;
 }
 .teach{
     position: relative;
     right: 20px;
 }
-li.teacher:hover{
-    border-bottom: solid 1px #29b078;
-}
-@media ( max-width :780px) {
-    li.teacher:hover {
-        border-bottom: 0;
-    }
+a.software:hover{
+    border-bottom: solid 1px #26a26f;
+    padding-bottom: 10px;
 }
 .you{
     width: 100%;

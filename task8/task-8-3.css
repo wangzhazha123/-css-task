@@ -1,3 +1,6 @@
+body{
+    min-width: 320px;
+}
 header{
     height: 90px;
 }
@@ -122,16 +125,17 @@ div.col-md-4.use{
 div.col-md-6.star{
     background-color: white;
     border:solid 1px #d0d6d9 ;
-    padding:3%;
+    padding:6px;
 }
 .nan{
-    padding-left: 2%;
+    padding-left: 12px;
+    vertical-align: text-top;
 }
 div.col-md-4.sasay{
     background-color: white;
     border:solid 1px #d0d6d9 ;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 17px;
+    padding-top: 16px;
     text-align: center;
 }
 div.col-md-8.treatment{
@@ -143,11 +147,11 @@ div.col-md-8.treatment{
     display: flex;
     justify-content: space-between;
     border-bottom:solid 1px #d0d6d9;
-    padding:3%;
+    padding:9px;
 }
 .frou{
     visibility: hidden;
-    padding:3%;
+    padding:6px;
 }
 .learn{
     border:solid 1px #d0d6d9 ;
@@ -187,6 +191,7 @@ div.col-md-12.len{
     padding:0 2% 0 3%;
     font-size: 1.6rem;
     z-index: 222;
+    transition:all 3s;
 }
 .iphone:hover{
     opacity: 1;
