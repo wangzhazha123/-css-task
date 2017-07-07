@@ -182,8 +182,6 @@ div.col-md-12.len{
     width: 95%;
     height:100%;
     opacity: 0;
-    /*!*visibility: hidden;*!*/
-    /*opacity: 0;*/
     text-align: center;
     line-height: 200%;
     padding:0 2% 0 3%;
@@ -191,8 +189,6 @@ div.col-md-12.len{
     z-index: 222;
 }
 .iphone:hover{
-    /*visibility: visible;*/
-    /*opacity: 1;*/
     opacity: 1;
 }
 .company{

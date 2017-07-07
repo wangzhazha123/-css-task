@@ -158,7 +158,14 @@ h3{
     box-shadow:0 1px 10px #d3d3d3;
 }
 .yun{
-    width: 250px;
+    width: 229px;
+    height:175px;
+}
+.yun1:hover{
+    box-shadow:0 1px 10px #d3d3d3;
+}
+.yun1{
+    width: 229px;
     height:175px;
     background-color: white;
 }
