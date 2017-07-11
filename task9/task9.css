@@ -1,5 +1,5 @@
 body{
-    min-width: 620px;
+    min-width: 360px;
     font-size: 62.5%;
 }
 header{
@@ -80,11 +80,21 @@ header{
     position: relative;
     top:20px;
 }
+@media screen and (max-width: 550px) {
+    .progress{
+        width: 70px;
+    }
+}
 .pro{
     width: 130px;
     height: 5px;
     background-color: #cccccc;
     margin-top: 20px;
+}
+@media screen and (max-width: 550px) {
+    .pro{
+        width: 70px;
+    }
 }
 .bar{
     position: relative;
@@ -98,6 +108,11 @@ header{
     bottom: 16px;
     left: 47px;
 }
+@media screen and (max-width: 550px) {
+    .bar{
+        left: 25px;
+    }
+}
 .ba{
     position: relative;
     width: 25px;
@@ -109,6 +124,11 @@ header{
     color: white;
     bottom:16px;
     left: 47px;
+}
+@media screen and (max-width: 550px) {
+    .ba{
+        left: 25px;
+    }
 }
 .customized{
     position: relative;
@@ -170,13 +190,17 @@ label {
         cursor: pointer;
         margin-left: 40px;
         margin-bottom: 0;
-        display: flex;
+        /*display: flex;*/
+        /*width: 100%;*/
     }
 }
 .label-p {
     display: inline-block;
     font-size: 1.3rem;
     /*margin: 2rem 0 2rem 2.5rem;*/
+}
+.wang{
+    display: inline-block;
 }
 input {
     display: none;
@@ -207,10 +231,18 @@ input {
     display: flex;
     justify-content: flex-end;
 }
+@media screen and (max-width: 990px) {
+    .drop{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
 .size-name {
     font-size: 1.3rem;
     display: inline-block;
-    margin-left: 4rem;
+    /*margin-left: 4rem;*/
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 .long {
     display: inline-block;
