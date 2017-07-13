@@ -1,0 +1,88 @@
+@charset "utf-8";
+body {
+  margin: 0 auto ;
+  min-width: 320px;
+}
+.sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 0 25px;
+  background-color: #5fc0cd;
+  color: white;
+}
+.text_color {
+  color: white;
+}
+.close {
+  font-size: 2rem;
+}
+.record {
+  font-size: 2.25rem;
+}
+main {
+  background-color: #eff0f4;
+  padding-top: 20px;
+  height: 1000px;
+}
+.phone {
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.border {
+  border-right: solid 1px #eaedee;
+}
+.display {
+  display: flex;
+  align-items: center;
+}
+.iphone {
+  height: 80px;
+  width: 120px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-right: solid 1px #eaedee;
+}
+.telephone {
+  width: 100%;
+  color: #e1e5e7;
+}
+input {
+  width: 60%;
+  height: 80px;
+  padding-left: 20px;
+  font-size: 2rem;
+  outline: medium;
+  border: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.land {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5fc0cd;
+}
+.lan {
+  background-color: #5fc0cd;
+  color: white;
+  cursor: pointer;
+}
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-top: 25px;
+}
+.for {
+  color: #5fc0cd;
+  font-size: 2rem;
+}

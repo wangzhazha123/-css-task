@@ -1,0 +1,129 @@
+@charset "utf-8";
+body{
+  margin:0 auto ;
+  min-width:320px;
+}
+.sign{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 0 25px;
+  .sign_color;
+  .text_color;
+}
+.sign_color(@background-color: #5fc0cd){
+  background-color:@background-color ;
+}
+.text_color{
+  color: white;
+}
+.board(@font-size:2rem){
+  font-size: @font-size;
+}
+.close{
+  .board();
+}
+.record{
+  .board(2.25rem)
+}
+main{
+  .sign_color(#eff0f4);
+  //background-color: #eff0f4;
+  padding-top: 20px;
+  height: 1000px;
+}
+.phone{
+  height: 100px;
+  .sign_color(white);
+  .display;
+  //justify-content: space-between;
+  margin-bottom: 20px;
+}
+.border{
+  border-right:solid 1px #eaedee;
+}
+.display{
+  display: flex;
+  align-items: center;
+}
+.iphone{
+  height: 80px;
+  width: 120px;
+  justify-content: center;
+  .display;
+  .border;
+}
+.telephone{
+  width: 100%;
+  color: #e1e5e7;
+}
+input{
+  width: 60%;
+  height: 80px;
+  padding-left: 20px;
+  .board;
+  outline: medium;
+  border:none;
+}
+a{
+  .text_color;
+  text-decoration: none;
+}
+.land{
+  .display;
+  justify-content: center;
+  .sign_color;
+}
+.lan{
+  .sign_color;
+  .text_color;
+  cursor:pointer;
+}
+.forget{
+  .display;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-top: 25px;
+}
+.for{
+  color: #5fc0cd;
+  .board;
+}
+//@dawa_width:300px;
+//.box{
+//  width: @dawa_width;
+//  height:@dawa_width;
+//  background-color: yellow;
+//  .border;
+//}
+//.border{
+//  border:solid 5px pink;
+//}
+//.box2{
+//  .box;
+//  margin-left: 100px;
+//}
+//.border_02(@border_width){
+//  border:solid yellow @border_width;
+//}
+//.test-hunhe{
+//  .border_02(50px)
+//}
+//.border_radius(@radius:5px){
+//  border-radius:@radius;
+//}
+//.test_radius{
+//  width: 100px;
+//  height:40px;
+//  background-color:green;
+//  .border_radius(50%);
+//}
+//.sanjiao{
+//  width: 0;
+//  height: 0;
+//  overflow: hidden;
+//  border-width: 10px;
+//  border-color: red transparent transparent transparent;
+//  border-style: solid;
+//}
