@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+body{
+  min-width: 385px;
+  //max-width: 780px;
+  margin: 0 auto;
+  font-size: 62.5%;
+}
+@blue-ed:#5fc0cd;
+@red-ed:#f0b0b1;
+@text-ed:#999999;
+.bordered{
+  border-bottom:solid 1px #999999;
+}
+.fon(@font-size:2rem){
+  font-size:@font-size ;
+}
+.height-ed(@height:100px){
+  height: @height;
+}
+header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  .height-ed(80px);
+  .fon(2.25rem);
+  background-color: @blue-ed;
+  color: white;
+}
+.personal{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.small{
+  padding-left: 30px;
+}
+.sam{
+  padding-right: 30px;
+}
+.blur{
+
+  width: 100%;
+  .height-ed(326px);
+  background: url("img/doctor1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  //background-color: rgba(0,0,0,.5);
+  //filter: blur(5px);
+  display: flex;
+  align-items: center;
+}
+.old{
+  .height-ed();
+  padding-left: 3rem;
+  .fon();
+}
+.img-shape{
+  padding-left: 3rem;
+}
+.skill{
+  display: flex;
+  align-items: center;
+  .height-ed();
+  .fon();
+  .bordered;
+}
+.major{
+  display: inline-block;
+  width: 3px;
+  .height-ed(25px);
+  margin: 0 30px ;
+  background: @blue-ed;
+}
+.star{
+  .skill;
+  margin-left: 30px;
+}
+.img-star{
+  padding: 0 30px;
+}
+.life{
+  border-right: solid 1px @text-ed;
+  .img-star;
+  color: @text-ed;
+  word-break: keep-all;
+}
+.twenty-five{
+  .img-star;
+  color: @red-ed;
+}
+.self{
+  .img-star;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .height-ed(175px);
+  background-color: #eff0f4;
+}
+//.leaving{
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//}
+//.butt-on{
+//  outline: none;
+//  border-radius: 10px;
+//  border: solid 1px @blue-ed;
+//  cursor: pointer;
+//}
+//.message{
+//  .butt-on;
+//}
+
+.leaving{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mess-age{
+  outline: none;
+  border-radius: 10px;
+  padding: 30px 0;
+  cursor: pointer;
+  width: 100%;
+}
+.message {
+  .fon();
+  background-color: #eff0f4;
+  border: solid 1px @blue-ed;
+  .mess-age;
+  color: @blue-ed;
+}
+.phone{
+  .fon();
+  background-color: @blue-ed;
+  .mess-age;
+  border: none;
+  color: white;
+}
+.age{
+  width: 45%;
+}
