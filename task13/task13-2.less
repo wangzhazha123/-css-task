@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+body{
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 625%;
+}
+@head:#29bde0;
+@main:#f0f0f0;
+@text:#9a9a9a;
+@text1:#fbb435;
+@red:#f66f6f;
+.back(@color:@head){
+  background-color: @color;
+}
+.font(@font-size:1.5rem){
+  font-size: @font-size;
+}
+.display{
+  display: flex;
+  align-items: center;
+}
+.head{
+  position: fixed;
+  .display;
+  color: white;
+  border: solid 1px #74d4eb;
+}
+header{
+  min-width: 320px;
+  max-width: 778px;
+  .head;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  .font();
+  .back();
+}
+.house{
+  padding: 0 20px;
+}
+main{
+  margin-bottom: 100px;
+}
+.game-one{
+  padding: 95px 70px 0;
+  .back();
+}
+@media screen and(max-width: 500px) {
+  .game-one{
+    padding: 95px 30px 0;
+  }
+}
+.img-victory{
+  .display;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.victory{
+  padding-bottom: 60px;
+  .font(1.3rem);
+  color: @text1;
+}
+.vic{
+  width: 90%;
+}
+.game{
+  .font(1.3rem);
+  color: white;
+  line-height: 2.8rem;
+  padding-bottom: 30px;
+}
+@media screen and(max-width: 500px) {
+  .game{
+    .font(1.1rem);
+  }
+}
+.first-day{
+  padding: 0 70px;
+  border: solid 1px @text;
+}
+@media screen and(max-width: 500px) {
+  .first-day{
+    padding: 0 30px;
+  }
+}
+.first{
+  .display;
+  justify-content: space-between;
+  padding-top: 15px;
+  .font();
+}
+.day{
+  .font(1rem);
+  color: @text;
+}
+.night{
+  padding: 35px 0;
+  .font(1.1rem);
+  color: @text;
+  line-height: 2rem;
+}
+//页脚固定和两个按钮
+footer{
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
+  .display;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: rgba(41,189,224,0.3);
+}
+.leaving{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10%;
+}
+.age{
+  width: 45%;
+  line-height: 20px;
+}
+.mess-age{
+  width: 100%;
+  padding: 20px 0;
+  .font(1.4rem);
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.message {
+  .back(@red);
+  .mess-age;
+}
+.upload{
+  .back(@text1);
+  .mess-age;
+}
+
