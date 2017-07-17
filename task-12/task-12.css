@@ -1,20 +1,27 @@
 @charset "utf-8";
 body {
-  min-width: 385px;
+  min-width: 320px;
+  max-width: 780px;
   margin: 0 auto;
-  font-size: 62.5%;
 }
 .bordered {
   border-bottom: solid 1px #999999;
 }
 header {
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
   display: flex;
   align-items: center;
   width: 100%;
-  height: 80px;
-  font-size: 2.25rem;
+  height: 57px;
+  font-size: 1.3rem;
   background-color: #5fc0cd;
   color: white;
+}
+main {
+  padding-top: 57px;
+  margin-bottom: 100px;
 }
 .personal {
   width: 100%;
@@ -28,28 +35,32 @@ header {
   padding-right: 30px;
 }
 .blur {
-  width: 100%;
-  height: 326px;
-  background: url("img/doctor1.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 225px;
+  background: url("img/doctor1.png") no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
 }
 .old {
   height: 100px;
-  padding-left: 3rem;
-  font-size: 2rem;
+  padding-left: 2rem;
+  font-size: 1.3rem;
+  color: white;
 }
 .img-shape {
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 .skill {
   display: flex;
   align-items: center;
-  height: 100px;
-  font-size: 2rem;
+  font-size: 1.3rem;
+  border-bottom: solid 1px #999999;
+}
+.skill1 {
+  display: flex;
+  align-items: center;
+  height: 57px;
+  font-size: 1.3rem;
   border-bottom: solid 1px #999999;
 }
 .major {
@@ -62,9 +73,17 @@ header {
 .star {
   display: flex;
   align-items: center;
-  height: 100px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   border-bottom: solid 1px #999999;
+  height: 57px;
+  margin-left: 30px;
+}
+.sa {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  border-bottom: solid 1px #999999;
+  height: 140px;
   margin-left: 30px;
 }
 .img-star {
@@ -81,16 +100,20 @@ header {
   color: #f0b0b1;
 }
 .self {
-  padding: 0 30px;
+  padding-left: 30px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 footer {
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 175px;
+  height: 70px;
   background-color: #eff0f4;
 }
 .leaving {
@@ -101,32 +124,33 @@ footer {
 .mess-age {
   outline: none;
   border-radius: 10px;
-  padding: 30px 0;
+  padding: 8px 0;
   cursor: pointer;
   width: 100%;
 }
 .message {
-  font-size: 2rem;
+  font-size: 1.3rem;
   background-color: #eff0f4;
   border: solid 1px #5fc0cd;
   outline: none;
   border-radius: 10px;
-  padding: 30px 0;
+  padding: 8px 0;
   cursor: pointer;
   width: 100%;
   color: #5fc0cd;
 }
 .phone {
-  font-size: 2rem;
+  font-size: 1.3rem;
   background-color: #5fc0cd;
   outline: none;
   border-radius: 10px;
-  padding: 30px 0;
+  padding: 8px 0;
   cursor: pointer;
   width: 100%;
   border: none;
   color: white;
 }
 .age {
-  width: 45%;
+  width: 40%;
+  margin: 0 10px;
 }

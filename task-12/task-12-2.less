@@ -3,7 +3,8 @@
 body{
   margin: 0 auto;
   font-size:62.5%;
-  min-width: 380px;
+  min-width: 320px;
+  max-width: 780px;
 }
 .fon(@font:2rem){
   font-size: @font;
@@ -28,25 +29,27 @@ body{
 .ti-tel{
   .display-ed;
   justify-content: space-between;
-  height: 100px;
 }
 .butt-on{
-  .fon(1.75rem);
+  .fon(1.2rem);
   outline: none;
   border: none;
   cursor: pointer;
 }
 header{
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
+  width: 100%;
   .ti-tel;
   .back(@blue);
-  .pad(0 30px);
-  .fon;
+  .pad(10px 0);
 }
 .discover{
   .display-ed;
 }
 .work{
-  .pad(20px);
+  .pad(8px);
   border-radius: 10px ;
 }
 .employer{
@@ -61,27 +64,9 @@ header{
   .back(white);
   color: @blue;
 }
-//.location{
-//  height:80px;
-//  overflow: hidden;
-//  cursor: pointer;
-//  transition: all .35s;
-//  &:hover{
-//    height:320px;
-//  }
-//  ul{
-//    list-style: none;
-//    margin: 0;
-//    padding: 0;
-//    li{
-//      width: 29%;
-//      height: 78px;
-//      line-height: 80px;
-//      text-align: center;
-//      border: solid 1px @text;
-//    }
-//  }
-//}
+main{
+  padding-top: 61px;
+}
 .location{
   .display-ed;
   width: 100%;
@@ -93,8 +78,8 @@ header{
 }
 .tion{
   width:100%;
-  .pad(25px 0 30px 34%);
-  .fon(1.75rem);
+  .pad( 8px 0 10px 34%);
+  .fon(1.2rem);
   color: @text;
   outline: none;
   border: none;
@@ -106,8 +91,8 @@ header{
 }
 .time{
   .display-ed;
-  .fon(1.75rem);
-  .pad(30px 0 0)
+  .fon(1.2rem);
+  .pad(10px 0 0)
 }
 .calendar{
   .time;
@@ -120,23 +105,25 @@ header{
 .date{
   .time;
   justify-content: space-between;
-  padding-left: 70px;
-}
-@media screen and(max-width: 550px){
-  .date{
-    padding-left: 10px;
-    .fon(1.3rem);
-  }
+  padding-left: 55px;
 }
 .five{
   color: @red;
+  white-space: nowrap;
 }
 .img-shape{
   .calendar;
   .bor;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 footer{
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.img-write{
   .ti-tel;
   .back(@foot);
   .pad( 0 15%)
@@ -154,4 +141,7 @@ footer{
 }
 .page{
   color: #999999;
+}
+.write{
+  width: 70%;
 }

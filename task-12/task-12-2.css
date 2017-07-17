@@ -2,7 +2,8 @@
 body {
   margin: 0 auto;
   font-size: 62.5%;
-  min-width: 380px;
+  min-width: 320px;
+  max-width: 780px;
 }
 .bor {
   border-bottom: solid 1px #b3b3b3;
@@ -15,50 +16,54 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
 }
 .butt-on {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   outline: none;
   border: none;
   cursor: pointer;
 }
 header {
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
   background-color: #5fc0cd;
-  padding: 0 30px;
-  font-size: 2rem;
+  padding: 10px 0;
 }
 .discover {
   display: flex;
   align-items: center;
 }
 .work {
-  padding: 20px;
+  padding: 8px;
   border-radius: 10px ;
 }
 .employer {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   outline: none;
   border: none;
   cursor: pointer;
-  padding: 20px;
+  padding: 8px;
   border-radius: 10px ;
   background-color: #55a8b3;
   color: white;
 }
 .workers {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   outline: none;
   border: none;
   cursor: pointer;
-  padding: 20px;
+  padding: 8px;
   border-radius: 10px ;
   background-color: #ffffff;
   color: #5fc0cd;
+}
+main {
+  padding-top: 61px;
 }
 .location {
   display: flex;
@@ -72,8 +77,8 @@ header {
 }
 .tion {
   width: 100%;
-  padding: 25px 0 30px 34%;
-  font-size: 1.75rem;
+  padding: 8px 0 10px 34%;
+  font-size: 1.2rem;
   color: #cfcfcf;
   outline: none;
   border: none;
@@ -86,14 +91,14 @@ header {
 .time {
   display: flex;
   align-items: center;
-  font-size: 1.75rem;
-  padding: 30px 0 0;
+  font-size: 1.2rem;
+  padding: 10px 0 0;
 }
 .calendar {
   display: flex;
   align-items: center;
-  font-size: 1.75rem;
-  padding: 30px 0 0;
+  font-size: 1.2rem;
+  padding: 10px 0 0;
   color: #cfcfcf;
 }
 .img-calender {
@@ -103,39 +108,40 @@ header {
 .date {
   display: flex;
   align-items: center;
-  font-size: 1.75rem;
-  padding: 30px 0 0;
+  font-size: 1.2rem;
+  padding: 10px 0 0;
   justify-content: space-between;
-  padding-left: 70px;
-}
-@media screen and (max-width: 550px) {
-  .date {
-    padding-left: 10px;
-    font-size: 1.3rem;
-  }
+  padding-left: 55px;
 }
 .five {
   color: #e9532b;
+  white-space: nowrap;
 }
 .img-shape {
   display: flex;
   align-items: center;
-  font-size: 1.75rem;
-  padding: 30px 0 0;
+  font-size: 1.2rem;
+  padding: 10px 0 0;
   color: #cfcfcf;
   border-bottom: solid 1px #b3b3b3;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 footer {
+  min-width: 320px;
+  max-width: 780px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.img-write {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
   background-color: #f8fafb;
   padding: 0 15%;
 }
 .home-page {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   outline: none;
   border: none;
   cursor: pointer;
@@ -150,4 +156,7 @@ footer {
 }
 .page {
   color: #999999;
+}
+.write {
+  width: 70%;
 }
