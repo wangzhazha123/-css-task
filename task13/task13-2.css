@@ -1,20 +1,30 @@
 @charset "utf-8";
-body {
-  min-width: 320px;
-  max-width: 780px;
-  margin: 0 auto;
-  font-size: 625%;
-}
 .display {
   display: flex;
   align-items: center;
+}
+.dis-play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wi-dth {
+  min-width: 320px;
+  max-width: 780px;
 }
 .head {
   position: fixed;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   color: white;
   border: solid 1px #74d4eb;
+}
+body {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 625%;
 }
 header {
   min-width: 320px;
@@ -72,7 +82,7 @@ main {
 }
 .first-day {
   padding: 0 70px;
-  border: solid 1px #9a9a9a;
+  border-bottom: solid 1px #9a9a9a;
 }
 @media screen and (max-width: 500px) {
   .first-day {
@@ -109,6 +119,7 @@ footer {
 }
 .leaving {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
   padding: 0 10%;

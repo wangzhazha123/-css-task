@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-body{
-  min-width: 320px;
-  max-width: 780px;
-  margin: 0 auto;
-  font-size: 625%;
-}
 @head:#29bde0;
 @main:#f0f0f0;
 @text:#9a9a9a;
@@ -21,12 +15,26 @@ body{
   display: flex;
   align-items: center;
 }
+.dis-play{
+  .display;
+  justify-content: space-between;
+}
+.wi-dth{
+  min-width: 320px;
+  max-width: 780px;
+}
 .head{
   position: fixed;
-  .display;
+  .dis-play;
   color: white;
   border: solid 1px #74d4eb;
 }
+body{
+  .wi-dth;
+  margin: 0 auto;
+  font-size: 625%;
+}
+//头部样式
 header{
   min-width: 320px;
   max-width: 778px;
@@ -40,6 +48,7 @@ header{
 .house{
   padding: 0 20px;
 }
+//内容样式
 main{
   margin-bottom: 100px;
 }
@@ -47,6 +56,7 @@ main{
   padding: 95px 70px 0;
   .back();
 }
+//图标在500px以后内边距变小
 @media screen and(max-width: 500px) {
   .game-one{
     padding: 95px 30px 0;
@@ -71,6 +81,7 @@ main{
   line-height: 2.8rem;
   padding-bottom: 30px;
 }
+//因为用了空格 所以在500px以下字体变小
 @media screen and(max-width: 500px) {
   .game{
     .font(1.1rem);
@@ -78,7 +89,7 @@ main{
 }
 .first-day{
   padding: 0 70px;
-  border: solid 1px @text;
+  border-bottom: solid 1px @text;
 }
 @media screen and(max-width: 500px) {
   .first-day{
@@ -86,8 +97,7 @@ main{
   }
 }
 .first{
-  .display;
-  justify-content: space-between;
+  .dis-play;
   padding-top: 15px;
   .font();
 }
@@ -103,8 +113,7 @@ main{
 }
 //页脚固定和两个按钮
 footer{
-  min-width: 320px;
-  max-width: 780px;
+  .wi-dth;
   position: fixed;
   .display;
   width: 100%;
@@ -113,8 +122,7 @@ footer{
   background-color: rgba(41,189,224,0.3);
 }
 .leaving{
-  display: flex;
-  justify-content: space-between;
+  .dis-play;
   width: 100%;
   padding: 0 10%;
 }
@@ -132,6 +140,7 @@ footer{
   border: none;
   cursor: pointer;
 }
+//两个按钮的颜色
 .message {
   .back(@red);
   .mess-age;

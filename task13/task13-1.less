@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
-body{
-  margin: 0 auto;
-  min-width: 320px;
-  max-width: 780px;
-}
+//常用组件
 @head:#29bde0;
 @main:#f0f0f0;
 @text:#9a9a9a;
 @text1:#fbb435;
+.wi-dth{
+  min-width: 320px;
+  max-width: 780px;
+}
 .back(@color:@head){
   background-color: @color;
 }
@@ -25,6 +25,14 @@ body{
   display: flex;
   align-items: center;
 }
+.dis-play{
+  .display;
+  justify-content: space-between;
+}
+.dis{
+  .display;
+  justify-content: center;
+}
 .ma{
   padding: 75px 35px 25px;
 }
@@ -33,15 +41,20 @@ body{
   .back(white);
   .font();
 }
+body{
+  .wi-dth;
+  margin: 0 auto;
+}
+//头部
 header{
-  min-width: 320px;
-  max-width: 780px;
+  .wi-dth;
   position: fixed;
   .display;
   width: 100%;
   .height();
   .back();
 }
+//内容
 main{
   .ma;
   .back(@main)
@@ -72,8 +85,7 @@ main{
   border-bottom: solid 2px @text1;
 }
 .simplify{
-  .display;
-  justify-content: space-between;
+  .dis-play;
   .back(white);
   .font();
   .border;
@@ -89,18 +101,17 @@ main{
   width: 10%;
 }
 .sim{
-  .display;
-  justify-content: center;
+  .dis;
   height: 135px;
   margin: 25px;
   .back();
   color: white;
 }
 .user{
-  .display;
-  justify-content: center;
+  .dis;
   color: @text;
 }
+//三角
 .triangle{
   width: 0;
   height: 0;
@@ -108,8 +119,7 @@ main{
   border-color: transparent transparent transparent @text1;
 }
 .point-round{
-  .display;
-  justify-content: center;
+ .dis;
   height: 40px;
 }
 .point{

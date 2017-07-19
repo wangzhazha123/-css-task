@@ -1,6 +1,5 @@
 @charset "UTF-8";
-body {
-  margin: 0 auto;
+.wi-dth {
   min-width: 320px;
   max-width: 780px;
 }
@@ -11,6 +10,16 @@ body {
   display: flex;
   align-items: center;
 }
+.dis-play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .ma {
   padding: 75px 35px 25px;
 }
@@ -19,6 +28,11 @@ body {
   align-items: center;
   background-color: #ffffff;
   font-size: 1.3rem;
+}
+body {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
 }
 header {
   min-width: 320px;
