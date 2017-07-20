@@ -69,7 +69,7 @@ main {
 .btn-audio {
   width: 45px;
   height: 45px;
-  background: url(img/play.png) no-repeat center bottom;
+  background: url("img/play.png") no-repeat center bottom;
   background-size: cover;
 }
 .triangle {
