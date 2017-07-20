@@ -101,7 +101,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 135px;
+  height: 120px;
   margin: 25px;
   background-color: #29bde0;
   color: white;
@@ -113,6 +113,8 @@ main {
   color: #9a9a9a;
 }
 .triangle {
+  position: relative;
+  bottom: 30px;
   width: 0;
   height: 0;
   margin-bottom: 50px;
