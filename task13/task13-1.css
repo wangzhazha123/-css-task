@@ -115,6 +115,7 @@ main {
 .triangle {
   width: 0;
   height: 0;
+  margin-bottom: 50px;
   border: solid 30px ;
   border-color: transparent transparent transparent #fbb435;
 }
