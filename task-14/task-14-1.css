@@ -1,0 +1,95 @@
+@charset "utf-8";
+.display {
+  display: flex;
+  align-items: center;
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main {
+  background-color: #fafafa;
+  padding-bottom: 50px;
+}
+.img-archive {
+  padding-top: 100px;
+  text-align: center;
+}
+.img-arch {
+  text-align: center;
+  padding-top: 150px;
+  color: #cacaca;
+}
+.img-use {
+  color: #29b078;
+}
+.tl-archive {
+  text-align: left;
+  color: #cacaca;
+}
+@media (max-width: 991px) {
+  .tl-archive {
+    text-align: center;
+  }
+}
+.study {
+  text-align: center;
+  padding: 50px 0 25px;
+}
+.one {
+  display: flex;
+  align-items: center;
+  padding: 25px 10px;
+}
+.img-one {
+  margin: 0 15px;
+}
+.img-two {
+  padding: 15px 20px;
+  border-radius: 50%;
+  background-color: white;
+  color: #29B078;
+  box-shadow: 0 0 15px #cacaca;
+}
+.img-four {
+  visibility: hidden;
+}
+@media (max-width: 991px) {
+  .img-four {
+    visibility: visible;
+  }
+}
+.img-avatar {
+  text-align: center;
+  padding: 25px;
+  background-color: white;
+}
+.point-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.point {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+.point:hover {
+  background-color: #29B078;
+}
+.img-ali {
+  padding: 30px 0;
+  text-align: center;
+  background-color: white;
+}
+.img-ali:hover {
+  box-shadow: 0 0 15px #cacaca;
+  z-index: 999;
+}
+.hurf {
+  text-align: center;
+}

@@ -1,0 +1,317 @@
+@charset "utf-8";
+@import "base";
+@import "page";
+body{
+  margin: 0 auto;
+  min-width: 320px;
+}
+.display{
+  display: flex;
+  align-items: center;
+}
+.dis{
+  .display;
+  justify-content: space-between;
+}
+.disp{
+  .display;
+  justify-content: center;
+}
+.phone{
+  .dis;
+}
+//导航栏
+.nav-width{
+  width: 100%;
+  .bg;
+}
+.nav-div{
+  background-color: #29B078;
+  padding: 10px 0 0;
+}
+.nav {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 500px) {
+  .nav {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .nav {
+    display: none;
+    width: 100%;
+    float: none;
+  }
+}
+.nav-img {
+  height: 70px;
+  vertical-align: middle;
+}
+@media screen and (max-width: 500px) {
+  .nav-img {
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+}
+.nav li {
+  float: left;
+}
+@media screen and (max-width: 500px) {
+  .nav li {
+    float: none;
+    text-align: center;
+  }
+}
+.nav li a {
+  display: block;
+  height: 70px;
+  padding: 25px 15px;
+  color: white;
+  background-color: #29b078;
+  text-decoration: none;
+}
+.nav li:hover a {
+  border-bottom: 3px solid white;
+}
+.hamburger-btn {
+  width: 40px;
+  height: 30px;
+  display: none;
+  background: url("img/three1.png");
+  border: none;
+  outline: none;
+  margin-top: 15px;
+}
+@media screen and (max-width: 500px) {
+  .hamburger-btn {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-right: 15px;
+  }
+}
+/*轮播图*/
+.banner{
+
+  height: 31.25vw;
+  position: relative;
+  overflow: hidden;
+}
+.banner img{
+  position: absolute;
+  width: 100vw;
+  right: 0;
+}
+
+#one{animation: move_three 9s infinite;}
+@keyframes move_one {
+
+  0% {left: 0;}
+  66% {left: 0;}
+  100% {left:100vw;}
+}
+@keyframes move_two {
+  0% {left: 0;}
+  33% {left: 0;}
+  66% {left:100vw;}
+  100%{left:100vw;}
+}
+@keyframes move_three {
+  0% {left: 0;}
+  33% {left:100vw;}
+  66% {left:100vw;}
+  100% {left:100vw;}
+}
+/*自定义栅格*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin: 0 -15px;
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.container:after,
+.container:before,
+.row:after,
+.row:before {
+   display: table;
+   content: "";
+   clear: both;
+
+ }
+.clear:after{
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+.clear{
+   zoom: 1
+}
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-12,
+.col-sm-6,
+.col-sm-12,
+.col-md-3,
+.col-md-4,
+.col-lg-3 {
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-12 {
+  float: left;
+}
+.col-xs-5 {
+  width: 41.66666666%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-12 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .col-sm-2 {
+    float: left;
+    width: 20%;
+  }
+  .col-sm-3 {
+    float: left;
+    width: 25%;
+  }
+  .col-sm-4 {
+    float: left;
+    width: 33.33%;
+  }
+  .col-sm-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-sm-9 {
+    float: left;
+    width: 75%;
+  }
+  .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .col-md-2 {
+    float: left;
+    width: 16.66666666%;
+  }
+  .col-md-3 {
+    float: left;
+    width: 25%;
+  }
+  .col-md-4 {
+    float: left;
+    width: 33.33333333%;
+  }
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-9 {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .col-lg-3 {
+    float: left;
+    width: 25%;
+  }
+}
+//五列栅格
+.col-xs-5cs, .col-sm-5cs, .col-md-5cs, .col-lg-5cs {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+@media ( min-width : 768px) {
+  .col-sm-5cs {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media ( min-width : 992px) {
+  .col-md-5cs {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media ( min-width : 1200px) {
+  .col-lg-5cs {
+    width: 20%;
+    float: left;
+  }
+}
+//十列栅格
+.col-xs-1cs, .col-sm-1cs, .col-md-1cs, .col-lg-1cs {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+@media ( min-width : 768px) {
+  .col-sm-1cs {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media ( min-width : 992px) {
+  .col-md-1cs {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media ( min-width : 1200px) {
+  .col-lg-1cs {
+    width: 10%;
+    float: left;
+  }
+}
