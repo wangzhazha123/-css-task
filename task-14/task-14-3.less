@@ -3,6 +3,7 @@
 main{
   background-color: #fafafa;
   padding-bottom: 150px;
+
 }
 .all{
   color: black;
@@ -39,32 +40,29 @@ main{
   padding-left: 15px;
   margin: 7px 0;
 }
+
 .tips{
   position: absolute;
+  //left: 15px;
+  //height: 80%;
   word-break: break-all;
+  padding-right: 8%;
+}
+.dawa{
   background-color: rgba(0, 0, 0,0.5);
   color: white;
-  width: 26%;
-  height: 70%;
   opacity: 0;
   text-align: center;
-  padding: 0 2% 0 3%;
   font-size: 16px;
   z-index: 222;
   transition: all 3s;
+  line-height: 40px;
   &:hover{
     opacity: 1;
   }
 }
 @media (max-width: 991px){
   .tips{
-   width: 44%;
-    height: 70%;
-  }
-}
-@media (max-width: 768px){
-  .tips{
-    width: 95%;
-    height: 65%;
+   padding-right: 10% ;
   }
 }
