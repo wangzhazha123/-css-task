@@ -15,7 +15,7 @@ main {
 }
 .tton {
   background-color: white;
-  color: #cacaca;
+  color: #999;
   border: solid 1px #e6e6e6;
   line-height: 30px;
 }
@@ -23,14 +23,14 @@ main {
   display: flex;
   padding-right: 50px;
   background-color: white;
-  color: #cacaca;
+  color: #999;
   border: solid 1px #e6e6e6;
   line-height: 30px;
 }
 .turn {
   padding: 20px 50px 100px;
   background-color: white;
-  color: #cacaca;
+  color: #999;
   border: solid 1px #e6e6e6;
   line-height: 30px;
 }

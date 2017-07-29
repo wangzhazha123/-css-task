@@ -19,7 +19,7 @@ main {
 .img-arch {
   text-align: center;
   margin-top: 150px;
-  color: #cacaca;
+  color: #999999;
   border-left: dashed 1px;
   padding-left: 20px;
 }
@@ -28,7 +28,7 @@ main {
 }
 .tl-archive {
   text-align: left;
-  color: #cacaca;
+  color: #999999;
 }
 @media (max-width: 991px) {
   .tl-archive {
