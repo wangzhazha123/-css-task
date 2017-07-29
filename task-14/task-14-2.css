@@ -5,6 +5,8 @@ main {
 }
 .img-heard {
   width: 100%;
+  position: relative;
+  top: -1px;
 }
 .tencent {
   background-color: white;
