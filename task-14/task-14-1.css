@@ -17,9 +17,10 @@ main {
   text-align: center;
 }
 .img-arch {
-  text-align: center;
-  padding-top: 150px;
+  margin-top: 150px;
   color: #cacaca;
+  border-left: dashed 1px;
+  padding-left: 20px;
 }
 .img-use {
   color: #29b078;

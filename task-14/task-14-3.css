@@ -13,6 +13,7 @@ main {
 .web {
   overflow: hidden;
   margin-bottom: 30px;
+  position: relative;
 }
 .wang {
   margin-top: 30px;
@@ -39,12 +40,9 @@ main {
   padding-left: 15px;
   margin: 7px 0;
 }
-.tips {
-  position: absolute;
-  word-break: break-all;
-  padding-right: 8%;
-}
 .dawa {
+  position: absolute;
+  margin-top: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   opacity: 0;
@@ -53,12 +51,9 @@ main {
   z-index: 222;
   transition: all 3s;
   line-height: 40px;
+  width: calc(100% - 30px);;
+  height: calc(100% - 30px);;
 }
 .dawa:hover {
   opacity: 1;
-}
-@media (max-width: 991px) {
-  .tips {
-    padding-right: 10% ;
-  }
 }
