@@ -42,7 +42,13 @@ main {
 .one {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 25px 10px;
+}
+@media (max-width: 768px) and (min-width: 560px) {
+  .one {
+    padding: 25px 100px;
+  }
 }
 .img-one {
   margin: 0 15px;

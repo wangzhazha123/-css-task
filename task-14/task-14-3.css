@@ -4,6 +4,7 @@ main {
   padding-bottom: 150px;
 }
 .all {
+  display: inline-block;
   color: black;
 }
 .all:hover {

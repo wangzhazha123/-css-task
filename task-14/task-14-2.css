@@ -27,12 +27,13 @@ main {
   border: solid 1px #e6e6e6;
   line-height: 30px;
 }
-@media (max-width: 500px){
-  .ten{
+@media (max-width: 500px) {
+  .ten {
     display: block;
+    text-align: center;
     padding-left: 50px;
   }
-  .tu{
+  .tu {
     width: 200px;
   }
 }

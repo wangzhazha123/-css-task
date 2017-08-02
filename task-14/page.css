@@ -9,6 +9,7 @@
 .software {
   color: #b8b8b8;
   text-decoration: none;
+  white-space: nowrap;
 }
 .teacher {
   padding-bottom: 10px;
