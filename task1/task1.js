@@ -40,9 +40,12 @@ function setColor(){
     document.getElementsByClassName("box2")[6].style.backgroundColor= "#f60" ;
     document.getElementsByClassName("box2")[7].style.backgroundColor= "#f60" ;
     document.getElementsByClassName("box2")[8].style.backgroundColor= "#f60" ;
-    document.getElementsByClassName("box2")[box4].style.backgroundColor= getcl();
-    document.getElementsByClassName("box2")[box5].style.backgroundColor= getcl();
-    document.getElementsByClassName("box2")[box6].style.backgroundColor= getcl();
+    if (box8===box9||box8===box10) {box8++;}
+    if (box9===box8||box9===box10){box9++;}
+    if (box10===box8||box10===box9){box10++;}
+    var box8 = document.getElementsByClassName("box2")[box4].style.backgroundColor= getcl();
+    var box9 = document.getElementsByClassName("box2")[box5].style.backgroundColor= getcl();
+    var box10 = document.getElementsByClassName("box2")[box6].style.backgroundColor= getcl();
 }
 var box7;
 var btnStart = document.getElementsByClassName("start")[0];
