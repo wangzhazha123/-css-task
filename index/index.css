@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    font-size: 62.5%;
+}
+.wang{
+    height: 100%;
+    padding: 0 25px 300px;
+    background:url("img/tim.jpg") no-repeat ;
+    background-size:100% 100%;
+}
+.fon{
+    font-size:2.5rem;
+    color: wheat;
+}
+.wan{
+    font-size:2.5rem;
+    margin-top: 0;
+    color: wheat;
+}
+.wa{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    outline: none;
+    border:solid 1px #f60;
+    border-radius: 5px;
+    background-color:white;
+}
+.wa:hover{
+    background-color: wheat;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
