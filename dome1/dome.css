@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+}
+.box{
+    width: 320px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: #29b078;
+    color: white;
+}
+p{
+    margin: 0 0 8px;
+}
+.box1{
+    width: 320px;
+}
